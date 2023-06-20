@@ -1,0 +1,84 @@
+html {
+    font-size: 16px; /* Adjust the font size as needed */
+    color: black; /* Adjust the text color as needed */
+  }
+  
+  body {
+    min-height: 100vh;
+    background-color: #ffffff; /* Adjust the background color as needed */
+  }
+  
+  section {
+    width: 100%;
+    max-width: 420px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    background-color: white;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  textarea {
+    font-family: 'Arial', sans-serif; /* Use Arial or another preferred font */
+    font-size: 16px; /* Adjust the font size as needed */
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    color: black; /* Adjust the text color as needed */
+    border: 1px solid black; /* Adjust the border color as needed */
+  }
+  
+  button {
+    padding: 0.5rem 1rem; /* Adjust the padding as needed */
+    background-color: #ff6a80; /* Adjust the background color as needed */
+    color: white;
+    border: none;
+  }
+  
+  .instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #ff6a80; /* Adjust the background color as needed */
+    color: white;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+  }
+  
+  .instructions > svg {
+    margin-right: 0.25rem;
+  }
+  
+  .map-container {
+    width: 100%;
+    height: 400px; 
+    position: relative;
+  }
+  
+  .amenities-label,
+  .court-type-label {
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+    font-size: 18px;
+    color: black; 
+  }
+  .password-input-container {
+    position: relative;
+  }
+  
+  .password-toggle-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #6c757d;
+  }
+  
